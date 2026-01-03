@@ -45,8 +45,7 @@ Build a **healthcare-aware translation system** that improves accuracy, reliabil
 │
 ├── Dataset/
 │   ├── medical term + sentences.csv
-│   ├── sentences.csv
-│   └── sentences_2.csv
+│   └── sentences.csv
 │
 ├── Result/
 │   ├── Training_loss.png
