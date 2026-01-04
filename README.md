@@ -8,16 +8,6 @@ The system is designed as a **clinical support tool** and includes **confidence-
 
 ---
 
-## 🎯 Problem Statement
-- India is a multilingual country where patients describe symptoms in regional languages.
-- Doctors and medical records predominantly use English.
-- General NMT systems often mistranslate medical terminology and long clinical sentences.
-
-**Goal:**  
-Build a **healthcare-aware translation system** that improves accuracy, reliability, and safety for Tamil–English medical translations.
-
----
-
 ## 🚀 Key Features
 - LoRA fine-tuning on IndicTrans base model  
 - Healthcare-specific synthetic dataset  
@@ -66,22 +56,15 @@ Build a **healthcare-aware translation system** that improves accuracy, reliabil
 ## 📊 Dataset Description
 - Fully **synthetic and anonymized**
 - No real patient data used
-- Simulates real hospital conversations
-
-### Covered Scenarios
-- Patient symptom descriptions  
-- Diagnosis explanations  
-- Medication and dosage instructions  
-- Diagnostic test discussions  
-- Follow-up and treatment advice  
+- Simulates real hospital conversations 
 
 ### Dataset Statistics
 | Split | Sentences |
 |------|-----------|
-| Training | 432,756 |
-| Validation | 24,042 |
-| Test | 24,042 |
-| **Total** | **480,840** |
+| Training | 4,92,763 |
+| Validation | 27,376 |
+| Test | 27,376 |
+| **Total** | **5,47,515** |
 
 ---
 
@@ -110,39 +93,6 @@ Evaluation visualizations are available in the `Result/` folder.
 
 ---
 
-## 🔐 Ethical & Safety Considerations
-- No real patient data used  
-- Synthetic and anonymized dataset  
-- Not a diagnostic tool  
-- Human verification required  
-- Confidence score supports safe interpretation  
-
----
-
-## ⚠️ Limitations
-- Rare medical terms may still fail  
-- Limited to Tamil ↔ English  
-- No speech input/output  
-- Confidence score is probabilistic  
-
----
-
-## 🧩 Challenges Faced
-- Scarcity of Indian-language healthcare datasets  
-- Complex medical terminology  
-- Balancing fluency and accuracy  
-- Computational constraints  
-
----
-
-## 🔮 Future Work
-- Support for more Indian languages  
-- Speech-to-text integration  
-- Larger-scale clinical validation  
-
----
-
 ## 👩‍💻 Author
 **Dhivya Shreetha S**  
-National AI Olympiad – Stage 2 Capstone Project  
-Domain: Healthcare | NLP | Generative AI
+Mail Id: **dhivyashreetha07@gmail.com** 
